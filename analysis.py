@@ -8,7 +8,6 @@ import numpy as np
 import PIL.Image as Image
 itchat.auto_login(hotReload=True)
 itchat.dump_login_status()
-
 data=pd.DataFrame()
 columns=['NickName', 'Sex', 'Province', 'City', 'Signature']
 friends=itchat.get_friends(update=True)[:]
@@ -59,7 +58,7 @@ def plot_cloud(columns):
     plt.axis("off")
     plt.show()
 
-# plot_cloud(columns)
+plot_cloud(columns)
 
 # [{},{}]
 # total_list=[]
@@ -88,7 +87,7 @@ def plot_location(friends):
     map.add("", map_attr, map_val, is_visualmap=True,visual_range=[0,120],visual_text_color='#000', is_map_symbol_show=False, is_label_show=True)
     map.render()
 
-# plot_location(friends)
+plot_location(friends)
 
 import pymysql.cursors
 def save_mysql(friends):
@@ -103,5 +102,6 @@ def save_mysql(friends):
                 connection.commit()
     finally:
         connection.close()
+
 
 # save_mysql(friends)
