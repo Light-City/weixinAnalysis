@@ -1,5 +1,5 @@
 # Python3.6+pyecharts实现微信好友的数据分析
-
+![](http://p20tr36iw.bkt.clouddn.com/wordcloud.png)
 ## 相关库学习
 
 ### 1.itchat安装及使用
@@ -384,4 +384,4 @@ https://morvanzhou.github.io/tutorials/data-manipulation/np-pd/2-2-np-array/)
 
 [8.wordcloud安装](https://blog.csdn.net/u012942818/article/details/75144001)
 
-### 7.欢迎Start:[My Project Here]()
+### 7.欢迎Start:[My Project Here](https://github.com/Light-City/weixinAnalysis)
