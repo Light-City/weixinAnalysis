@@ -1,6 +1,5 @@
 # Python3.6+pyecharts实现微信好友的数据分析
 ![](http://p20tr36iw.bkt.clouddn.com/wordcloud.png)
-## 相关库学习
 
 ### 1.itchat安装及使用
 ```python
